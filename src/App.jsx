@@ -1,6 +1,10 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
-import App from './App.jsx';
 
-const root = ReactDOM.createRoot(document.getElementById('root'));
-root.render(<App />);
+export default function App() {
+  return (
+    <div style={{ padding: '20px' }}>
+      <h1>めちこのシフト 🌈</h1>
+      <p>家族共有シフトアプリ</p>
+    </div>
+  );
+}
